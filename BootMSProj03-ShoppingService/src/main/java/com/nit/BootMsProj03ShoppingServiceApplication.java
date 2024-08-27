@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class BootMsProj03ShoppingServiceApplication {
-
+	// using Discovery Client component
 	public static void main(String[] args) {
 		SpringApplication.run(BootMsProj03ShoppingServiceApplication.class, args);
 	}
